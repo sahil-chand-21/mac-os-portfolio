@@ -25,6 +25,38 @@ const navIcons=[
     },
 ];
 
+const dockApps=[
+    {   id:"finder",
+    name:"Portfolio",
+    icon: "finder.png",
+    canOpen :true,
+    },
+    {   id:"safari",
+    name:"Articles",
+    icon: "safari.png",
+    canOpen :true,
+    },
+    {   id:"photos",
+    name:"Gallaery",
+    icon: "photos.png",
+    canOpen :true,
+    },
+    {   id:"contact",
+    name:"Contact",
+    icon: "contact.png",
+    canOpen :true,
+    },
+    {   id:"terminal",
+    name:"Skills",
+    icon: "terminal.png",
+    canOpen :true,
+    },
+    {   id:"trash",
+    name:"Archieve",
+    icon: "trash.png",
+    canOpen :true,
+    },
+];
 
 
 export {navlinks,navIcons};
