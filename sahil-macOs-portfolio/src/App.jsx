@@ -4,7 +4,7 @@ const App = () => {
   return (
     <main>
     <Navbar/>
-    <div> MY portfolio</div>
+   
     </main>
   )
 }
