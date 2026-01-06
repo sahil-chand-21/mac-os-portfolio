@@ -37,7 +37,7 @@ const dockApps=[
     canOpen :true,
     },
     {   id:"photos",
-    name:"Gallaery",
+    name:"Gallery",
     icon: "photos.png",
     canOpen :true,
     },
@@ -54,9 +54,9 @@ const dockApps=[
     {   id:"trash",
     name:"Archieve",
     icon: "trash.png",
-    canOpen :true,
+    canOpen :false,
     },
 ];
 
 
-export {navlinks,navIcons};
+export {navlinks,navIcons,dockApps};
