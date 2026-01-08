@@ -4,9 +4,12 @@ import React, { useRef } from 'react';
 import {Tooltip} from "react-tooltip";
 // import { i } from 'vite/dist/node/chunks/moduleRunnerTransport';
 import gsap from 'gsap';
+import useWindowStore from '#store/window';
 
 const Dock = () => {
     const dockRef=useRef(null);
+    // importing and destructing the windows functions
+    const {openWindow,closeWindow,focusWindow}= useWindowStore();
 
     useGSAP(()=>{
         const dock=dockRef.current;
@@ -66,6 +69,8 @@ const Dock = () => {
 
     const toggleApp=(app)=>{
         //whaat will do in the app is clicked
+  
+        
     };
 
   return (
