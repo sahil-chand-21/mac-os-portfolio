@@ -3,13 +3,14 @@ import React from 'react'
 import {techStack}from "#constants"
 import { Check } from 'lucide-react'
 import { Anchor } from 'lucide-react'
+import WindowControls from '#components/WindowControls'
 
 const Terminal = () => {
   return (
    
    <>
    <div id='window-header'>
-    <p>WindowControls</p>
+    <WindowControls target="terminal"/>
     <h2>Tech Stack</h2>
    </div>
 
