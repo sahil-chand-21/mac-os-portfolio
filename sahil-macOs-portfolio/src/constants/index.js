@@ -71,4 +71,31 @@ const WINDOW_CONFIG = {
   imgfile: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
 };
 
-export {navlinks,navIcons,dockApps,INITIAL_Z_INDEX,WINDOW_CONFIG};
+const techStack = [
+  {
+    category: "Frontend",
+    items: ["React.js , ",  "JavaScript ."],
+  },
+  {
+    category: "Mobile",
+    items: ["Loading  ,", "learning ."],
+  },
+  {
+    category: "Styling",
+    items: ["Tailwind CSS ,", "Sass ,", "CSS ."],
+  },
+  {
+    category: "Backend",
+    items: ["Node.js ."],
+  },
+  {
+    category: "Database",
+    items: ["MongoDB ."],
+  },
+  {
+    category: "Dev Tools",
+    items: ["Git ,", "GitHub ."],
+  },
+];
+
+export {navlinks,navIcons,dockApps,INITIAL_Z_INDEX,WINDOW_CONFIG,techStack};

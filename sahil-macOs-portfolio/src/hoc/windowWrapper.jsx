@@ -7,7 +7,7 @@ const windowWrapper = (Component,windowKey) => {
     const{ isOpen,zIndex }=windows[windowKey];
     const ref =useRef(null);
 
-    return 
+    return (
     <section 
     id={windowKey}
      ref={ref} 
@@ -16,9 +16,9 @@ const windowWrapper = (Component,windowKey) => {
      >
       <Component {...props}/>
      </section>
-
+    );
   };
-
+    Wrapped.displayName=`WindowWrapper(${Component.displayName || Component.name ||"component"})`;
 
   return Wrapped;
 }
