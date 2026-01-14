@@ -5,6 +5,7 @@ import Dock from '#components/Dock'
 import { gsap } from "gsap";
 import { Draggable } from "gsap/Draggable";
 import  Terminal from './apps/Terminal';
+import Safari from "./apps/Safari"
 gsap.registerPlugin(Draggable);
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
     <Dock/>
 
     <Terminal/>
+    <Safari/>
    
     </main>
   )
