@@ -10,3 +10,7 @@
 
 14/1/2026=>{
 will use the safari dock as a random achievement post/ pic and gallery"
+
+24/1/2026=>{
+we are using react-pdf librabry to view the pdf.
+}
