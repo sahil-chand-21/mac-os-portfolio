@@ -98,6 +98,8 @@ const techStack = [
   },
 ];
 
+
+
 const WORK_LOCATION = {
   id: 1,
   type: "work",
@@ -108,7 +110,7 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Nike Ecommerce Website Application",
+      name: "built and web dev with ai",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
@@ -116,7 +118,7 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Nike Project.txt",
+          name: "loading.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
