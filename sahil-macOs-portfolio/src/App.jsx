@@ -7,6 +7,7 @@ import { Draggable } from "gsap/Draggable";
 import  Terminal from './apps/Terminal';
 import Safari from "./apps/Safari";
 import Resume from "./apps/Resume";
+import  Finder  from './apps/Finder';
 gsap.registerPlugin(Draggable);
 const App = () => {
   return (
@@ -18,7 +19,7 @@ const App = () => {
 
     <Terminal/>
     <Safari/>
-   
+    <Finder/>
     </main>
   )
 }

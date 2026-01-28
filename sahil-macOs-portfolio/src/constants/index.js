@@ -374,4 +374,4 @@ export const locations = {
   resume: RESUME_LOCATION,
   trash: TRASH_LOCATION,
 };
-export {navlinks,navIcons,dockApps,INITIAL_Z_INDEX,WINDOW_CONFIG,techStack};
+export {navlinks,navIcons,dockApps,INITIAL_Z_INDEX,WINDOW_CONFIG,techStack,};
