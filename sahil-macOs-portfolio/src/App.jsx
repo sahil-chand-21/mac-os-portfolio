@@ -1,4 +1,5 @@
 import React from 'react'
+import  { useState } from 'react'
 import Navbar from '#components/Navbar'
 import Welcome from '#components/Welcome'
 import Dock from '#components/Dock'
@@ -8,9 +9,13 @@ import  Terminal from './apps/Terminal';
 import Safari from "./apps/Safari";
 import Resume from "./apps/Resume";
 import  Finder  from './apps/Finder';
+
+import BootLoader from "#components/BootLoader";
 gsap.registerPlugin(Draggable);
 const App = () => {
-  return (
+
+  const [booted, setBooted] = useState(false); 
+  return booted ?  (
     <main>
     <Navbar/>
     <Resume/>
@@ -21,7 +26,9 @@ const App = () => {
     <Safari/>
     <Finder/>
     </main>
-  )
+  ): (
+    <BootLoader onComplete={() => setBooted(true)} />
+  );
 }
 
 export default App
