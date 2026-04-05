@@ -4,7 +4,7 @@ import Navbar from '#components/Navbar'
 import Welcome from '#components/Welcome'
 import Dock from '#components/Dock'
 import { gsap } from "gsap";
-import { Draggable } from "gsap/Draggable";
+import { Draggable } from "gsap/draggable";
 import  Terminal from './apps/Terminal';
 import Safari from "./apps/Safari";
 import Resume from "./apps/Resume";
