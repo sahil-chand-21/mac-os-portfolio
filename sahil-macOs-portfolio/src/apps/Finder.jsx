@@ -9,6 +9,9 @@ import useLocation from '#store/location'
 const Finder = () => {
 
     const {setActiveLocation, resetLocation,activeLocation }=useLocation();
+
+    const openItem = (item) => {};
+
     const MenuOptions=(options)=>
         options.map((item)=>(
          
@@ -48,6 +51,16 @@ const Finder = () => {
             </ul>
         </div>
     </div>
+        <ul className='content'>
+            {activeLocation?.children.map((item)=>(
+            <li key={item.id}
+             className={item.position}
+              onClick={()=>openItem(item)}>
+                <img src={item.icon} alt={item.name} />
+                <p>{item.name}</p>
+            </li>
+            ))}
+        </ul>
     </div>
         </>
   )
