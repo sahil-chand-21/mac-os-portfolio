@@ -15,9 +15,12 @@ gsap.registerPlugin(Draggable);
 const App = () => {
 
   const [booted, setBooted] = useState(false); 
+  const reboot=()=>{
+    setBooted(false);
+  };
   return booted ?  (
     <main>
-    <Navbar/>
+    <Navbar onReboot={reboot}/>
     <Resume/>
     <Welcome/>
     <Dock/>

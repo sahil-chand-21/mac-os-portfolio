@@ -5,12 +5,19 @@ import { Search } from 'lucide-react'
 import React from 'react'
 import clsx from 'clsx';
 import useLocation from '#store/location'
+import useWindowStore from '#store/window'
 
 const Finder = () => {
 
     const {setActiveLocation, resetLocation,activeLocation }=useLocation();
+    const {openWindow}=useWindowStore();
 
-    const openItem = (item) => {};
+    const openItem = (item) => { // function to click and see under the store ...
+        if(item.fileType === "pdf") return openWindow("resume");// to open the resume window
+        if(item.kind === "folder") return setActiveLocation(item);
+        // refer 2:36 to implement the clicking functions of png , link and txt
+
+    };
 
     const MenuOptions=(options)=>
         options.map((item)=>(
@@ -56,7 +63,7 @@ const Finder = () => {
             <li key={item.id}
              className={item.position}
               onClick={()=>openItem(item)}>
-                <img src={item.icon} alt={item.name} />
+                <img src={item.icon} alt={item.name} className='cursor-pointer' />
                 <p>{item.name}</p>
             </li>
             ))}

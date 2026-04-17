@@ -4,12 +4,12 @@ import dayjs from "dayjs";
 import { navIcons, navlinks } from "#constants"
 import useWindowStore from "#store/window";
 
-const Navbar = () => {
+const Navbar = ({onReboot}) => {
   const {openWindow}=useWindowStore();
   return (
     <nav>
       <div>
-        <img src="/images/logo.svg" alt="logo" />
+        <img src="/images/logo.svg" alt="logo"   onClick={onReboot}/>
         <p className="font-bold">Sahil-portfolio</p>
         <ul>
           {/* {[
