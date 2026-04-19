@@ -12,6 +12,7 @@ const Finder = () => {
     const {setActiveLocation, resetLocation,activeLocation }=useLocation();
     const {openWindow}=useWindowStore();
 
+    // implementing how to open the files under the folder and finder 
     const openItem = (item) => { // function to click and see under the store ...
         if(item.fileType === "pdf") return openWindow("resume");// to open the resume window
         if(item.kind === "folder") return setActiveLocation(item);

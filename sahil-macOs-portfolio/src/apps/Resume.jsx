@@ -32,7 +32,8 @@ const Resume = () => {
       <Document file="files/Sahil_resume.pdf" >
         <Page pageNumber={1} 
         renderTextLayer
-        renderAnnotationLayer />
+        renderAnnotationLayer 
+        />
       </Document>
     </div>
     </>

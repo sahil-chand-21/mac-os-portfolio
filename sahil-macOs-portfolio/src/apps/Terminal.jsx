@@ -44,7 +44,7 @@ const Terminal = () => {
     <div className='footnote'>
       <p>
         <Check size={30}/>
-        5 out of 5 task completed successfully
+        6 out of 6 task completed successfully
       </p>
       <p className='text-blue-400'>
         <Anchor/>
