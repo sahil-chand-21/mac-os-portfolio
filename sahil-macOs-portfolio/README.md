@@ -77,3 +77,5 @@ const Navbar = ({ onReboot }) => {
             {id:3,name:"Projects"},  /*  shifting this date into the constants to clean code
 
           ]*/
+
+           the floder are implemented just change it with your project 

@@ -16,7 +16,9 @@ const Finder = () => {
         if(item.fileType === "pdf") return openWindow("resume");// to open the resume window
         if(item.kind === "folder") return setActiveLocation(item);
         // refer 2:36 to implement the clicking functions of png , link and txt
-
+        // if(item.fileType ==="fig" && (item.href)) return  window.open(item.href, "blank");
+        // if(item.fileType ==="url" && (item.href)) return  window.open(item.href, "blank");  like this or like below is cleaner and prod. ready
+        if(["fig","url"].includes(item.fileType)&& item.href) return window.open(item.href, "_blank");
     };
 
     const MenuOptions=(options)=>
