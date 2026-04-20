@@ -20,6 +20,11 @@ const Finder = () => {
         // if(item.fileType ==="fig" && (item.href)) return  window.open(item.href, "blank");
         // if(item.fileType ==="url" && (item.href)) return  window.open(item.href, "blank");  like this or like below is cleaner and prod. ready
         if(["fig","url"].includes(item.fileType)&& item.href) return window.open(item.href, "_blank");
+        if(item.fileType === "txt") return openWindow("txtfile", item);
+        if(item.fileType === "img") return openWindow("imgfile", item);
+
+        //else - fallback for other file types
+        openWindow(`${item.fileType}file`,item)
     };
 
     const MenuOptions=(options)=>

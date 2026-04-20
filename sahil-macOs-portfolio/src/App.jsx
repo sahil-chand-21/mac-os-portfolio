@@ -9,7 +9,9 @@ import  Terminal from './apps/Terminal';
 import Safari from "./apps/Safari";
 import Resume from "./apps/Resume";
 import  Finder  from './apps/Finder';
-
+import Textview from './apps/Textview'
+import Imageview from './apps/Imageview'
+ import Folder from '#components/Folder'
 import BootLoader from "#components/BootLoader";
 gsap.registerPlugin(Draggable);
 const App = () => {
@@ -28,6 +30,9 @@ const App = () => {
     <Terminal/>
     <Safari/>
     <Finder/>
+    <Textview/>
+    <Imageview />
+    <Folder/>
     </main>
   ): (
     <BootLoader onComplete={() => setBooted(true)} />

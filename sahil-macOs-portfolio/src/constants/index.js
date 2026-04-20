@@ -354,7 +354,7 @@ const TRASH_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-10",
-      imageUrl: "/images/trash-1.png",
+      imageUrl: "/images/sahil_1mount (4).jpeg",
     },
     {
       id: 2,
