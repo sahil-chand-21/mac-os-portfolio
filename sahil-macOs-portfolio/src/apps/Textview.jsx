@@ -6,12 +6,22 @@ import React from 'react'
 
 const Textview = () => {
 
+  const {windows} = useWindowStore();
+  const data= windows.txtfile?.data;
+
+  if(!data) return null;
+
+  const{description,heading}=data;
   return (
     <>
     <div id='window-header'>
         <WindowControls target="txtfile"/>
-        <p> hello</p>
+        <h2>{heading}</h2>
     </div>
+    <h2>{heading}</h2>
+    <div className='des'>{description.map((txt,index)=>(
+      <p className='pt-4 ' key={index} > {txt} </p>
+    ))}</div>
     </>
   )
 }

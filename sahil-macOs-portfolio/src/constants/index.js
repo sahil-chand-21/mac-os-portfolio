@@ -110,7 +110,7 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "built and web dev with ai",
+      name: "sahil mac-os portfolio",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
@@ -118,35 +118,35 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "loading.txt",
+          name: "Description.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
+          heading:"Mac-OS Inspired Portfolio – Description",
           description: [
-            "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-            "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-            "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-            "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+            "This project is a Mac-OS inspired portfolio built using React, where I focused on creating a clean, interactive, and user-friendly interface that mimics the look and feel of a real operating system. Through this project, I strengthened my understanding of component-based architecture, state management, and dynamic UI rendering in React.",
+            "I used technologies like React.js, JavaScript (ES6+), HTML, and CSS to build responsive and reusable components. I also learned how to manage routing, handle events efficiently, and structure a scalable frontend project. Additionally, I improved my skills in designing smooth user experiences, working with assets, and organizing code for better maintainability.",
+            "Overall, this project helped me gain practical experience in frontend development and deepened my confidence in building modern web applications using React.",
           ],
         },
         {
           id: 2,
-          name: "nike.com",
+          name: "sahil-macos-portfolio.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+          href: "https://sahil-mac-os-portfolio-e.vercel.app/",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "nike.png",
+          name: "sahil-macos-portfolio.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/project-1.png",
+          imageUrl: "/images/macos_screenshot.png",
         },
         {
           id: 5,
@@ -163,7 +163,7 @@ const WORK_LOCATION = {
     // ▶ Project 2
     {
       id: 6,
-      name: "AI Resume Analyzer",
+      name: "project2",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
@@ -171,35 +171,35 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "AI Resume Analyzer Project.txt",
+          name: "project2",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 right-10",
           description: [
-            "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-            "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-            "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-            "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+            "",
+            "",
+            "",
+            "",
           ],
         },
         {
           id: 2,
-          name: "ai-resume-analyzer.com",
+          name: "project_2.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+          href: "",
           position: "top-20 left-20",
         },
         {
           id: 4,
-          name: "ai-resume-analyzer.png",
+          name: "project_2.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 left-80",
-          imageUrl: "/images/project-2.png",
+          imageUrl: "",
         },
         {
           id: 5,
@@ -216,7 +216,7 @@ const WORK_LOCATION = {
     // ▶ Project 3
     {
       id: 7,
-      name: "Food Delivery App",
+      name: "Project 3",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
@@ -224,35 +224,34 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Food Delivery App Project.txt",
+          name: "Project 3.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-            "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-            "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-            "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+            "",
+            "",
+            "",
           ],
         },
         {
           id: 2,
-          name: "food-delivery-app.com",
+          name: "Project 3.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+          href: "",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "food-delivery-app.png",
+          name: "Project 3.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/project-3.png",
+          imageUrl: "",
         },
         {
           id: 5,
@@ -277,12 +276,12 @@ const ABOUT_LOCATION = {
   children: [
     {
       id: 1,
-      name: "me.png",
+      name: "mountain_love.png",
       icon: "/images/image.png",
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/adrian.jpg",
+      imageUrl: "/images/sahil_3forest.jpeg",
     },
     {
       id: 2,
@@ -291,16 +290,16 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-28 right-72",
-      imageUrl: "/images/adrian-2.jpg",
+      imageUrl: "/images/sahil_IIM.jpeg",
     },
     {
       id: 3,
-      name: "conference-me.png",
+      name: "sunset.png",
       icon: "/images/image.png",
       kind: "file",
       fileType: "img",
       position: "top-52 left-80",
-      imageUrl: "/images/adrian-3.jpeg",
+      imageUrl: "/images/sahil_1mount (1).jpeg",
     },
     {
       id: 4,
@@ -310,7 +309,7 @@ const ABOUT_LOCATION = {
       fileType: "txt",
       position: "top-60 left-5",
       subtitle: "Meet the Developer Behind the Code",
-      image: "/images/adrian.jpg",
+      image: "/images/sahil_3forest.jpeg",
       description: [
         "Hey! I’m Sahil Chand👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
         "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
@@ -354,7 +353,7 @@ const TRASH_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-10",
-      imageUrl: "/images/sahil_1mount (4).jpeg",
+      imageUrl: "/images/sahil_1mount (6).jpeg",
     },
     {
       id: 2,
@@ -363,7 +362,7 @@ const TRASH_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-40 left-80",
-      imageUrl: "/images/trash-2.png",
+      imageUrl: "/images/sahil_1mount (5).jpeg",
     },
   ],
 };
