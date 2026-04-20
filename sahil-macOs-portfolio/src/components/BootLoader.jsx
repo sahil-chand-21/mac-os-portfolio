@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { gsap } from "gsap";
+import { gsap } from "gsap/all";
 import Icon from '@mdi/react';
 import { mdiApple } from '@mdi/js';
 

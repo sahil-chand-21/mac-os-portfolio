@@ -3,7 +3,7 @@ import { useGSAP } from '@gsap/react';
 import React, { useRef } from 'react';
 import {Tooltip} from "react-tooltip";
 // import { i } from 'vite/dist/node/chunks/moduleRunnerTransport';
-import gsap from 'gsap';
+import { gsap } from "gsap/all";
 import useWindowStore from '#store/window';
 
 
