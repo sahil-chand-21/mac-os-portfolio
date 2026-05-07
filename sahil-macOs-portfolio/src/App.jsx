@@ -12,6 +12,7 @@ import Textview from './apps/Textview'
 import Imageview from './apps/Imageview'
  import Folder from '#components/Folder'
 import BootLoader from "#components/BootLoader";
+import Gallery from "./apps/Gallery"
 gsap.registerPlugin(Draggable);
 const App = () => {
 
@@ -29,6 +30,7 @@ const App = () => {
     <Terminal/>
     <Safari/>
     <Finder/>
+    <Gallery />
     <Textview/>
     <Imageview />
     <Folder/>

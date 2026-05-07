@@ -21,7 +21,7 @@ const Resume = () => {
     <div id="window-header">
         <WindowControls target="resume"/>
         <h2>Sahil_Resume.pdf</h2>
-        <a href="files/Sahil_resume.pdf" download
+        <a href="files/Sahil_Chand_Resume.pdf" download
          className='cursor-pointer'
          title='Download Resume' >
             <Download className='icon'/>
@@ -29,7 +29,7 @@ const Resume = () => {
     </div>
 
         <div>
-      <Document file="files/Sahil_resume.pdf" >
+      <Document file="files/Sahil_Chand _Resume.pdf" >
         <Page pageNumber={1} 
         renderTextLayer
         renderAnnotationLayer 

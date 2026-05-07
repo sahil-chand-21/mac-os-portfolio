@@ -36,7 +36,7 @@ const dockApps=[
     icon: "safari.png",
     canOpen :true,
     },
-    {   id:"photos",
+    {   id:"Gallery",
     name:"Gallery",
     icon: "photos.png",
     canOpen :true,
@@ -65,7 +65,7 @@ const WINDOW_CONFIG = {
   contact: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   resume: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   safari: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
-  photos: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+  Gallery: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   terminal: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   txtfile: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   imgfile: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
@@ -367,10 +367,58 @@ const TRASH_LOCATION = {
   ],
 };
 
+
+const photosLinks = [
+  {
+    id: 1,
+    icon: "/icons/gicon1.svg",
+    title: "Library",
+  },
+  {
+    id: 2,
+    icon: "/icons/gicon2.svg",
+    title: "Memories",
+  },
+  {
+    id: 3,
+    icon: "/icons/file.svg",
+    title: "Places",
+  },
+  {
+    id: 4,
+    icon: "/icons/gicon4.svg",
+    title: "People",
+  },
+  {
+    id: 5,
+    icon: "/icons/gicon5.svg",
+    title: "Favorites",
+  },
+];
+
+const gallery = [
+  {
+    id: 1,
+    img: "/images/gal1.png",
+  },
+  {
+    id: 2,
+    img: "/images/gal2.png",
+  },
+  {
+    id: 3,
+    img: "/images/gal3.png",
+  },
+  {
+    id: 4,
+    img: "/images/gal4.png",
+  },
+];
+
 export const locations = {
   work: WORK_LOCATION,
   about: ABOUT_LOCATION,
   resume: RESUME_LOCATION,
   trash: TRASH_LOCATION,
 };
-export {navlinks,navIcons,dockApps,INITIAL_Z_INDEX,WINDOW_CONFIG,techStack,};
+export {navlinks,navIcons,dockApps,INITIAL_Z_INDEX,WINDOW_CONFIG,techStack,gallery,photosLinks};
