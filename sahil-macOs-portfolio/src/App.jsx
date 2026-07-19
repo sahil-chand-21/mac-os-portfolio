@@ -20,6 +20,7 @@ const App = () => {
   const reboot=()=>{
     setBooted(false);
   };
+  // h
   return booted ?  (
     <main>
     <Navbar onReboot={reboot}/>
