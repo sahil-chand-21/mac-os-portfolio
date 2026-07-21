@@ -4,18 +4,14 @@ import windowWrapper from '#hoc/windowWrapper'
 import React from 'react'
 
 const Gallery = () => {
-
-    const {id,icon,title} = photosLinks;
-    const{image}=gallery;
-
   return (
-
       <div id="photos">
       <div id="window-header">
         <WindowControls target="Gallery"/>
         <h2>Gallery</h2>
       </div>
-        <div className="sidebar">
+        <div className="photos-layout">
+          <div className="sidebar">
             <ul>
                { photosLinks.map((alias)=>(
                 <li key={alias.id}>
@@ -24,8 +20,8 @@ const Gallery = () => {
                 </li>
                ))}
             </ul>
-        </div>
-        <div className="gallery">
+          </div>
+          <div className="gallery">
             <ul>
                 {gallery.map((item)=>(
                     <li key={item.id}>
@@ -33,8 +29,9 @@ const Gallery = () => {
                     </li>
                 ))}
             </ul>
+          </div>
         </div>
-        </div>
+      </div>
 
     )
 }
